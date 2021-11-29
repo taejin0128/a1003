@@ -31,7 +31,7 @@
 
     git clone https://github.com/pkyoung/a1003.git ./train.1
     cd train.1
-    cd data && tar xvzf ks.tgz
+    cd data && tar xvzf ks.tgz && cd ..
 
 
 # Train ASR
