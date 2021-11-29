@@ -82,7 +82,7 @@
 
     ## tensorboard 위치는 환경에 맞게
     ## train.1 은 아무 이름이나 구분되는 이름으로
-    ln -s /home/work/train.1/exp/exp01a/tensorboard ./train.1
+    ln -s /home/work/train.1/exp/exp01a/tensorboard ./logs/train.1
 
 # Testing
 
