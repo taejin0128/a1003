@@ -32,6 +32,9 @@
     git clone https://github.com/pkyoung/a1003.git ./train.1
     cd train.1
     cd data && tar xvzf ks.tgz && cd ..
+    ln -s /opt/kaldi/egs/wsj/s5/steps .
+    ln -s /opt/kaldi/egs/wsj/s5/utils .
+    
 
 
 # Train ASR
