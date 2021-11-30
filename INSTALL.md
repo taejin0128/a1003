@@ -10,6 +10,7 @@
     make TH_VERSION=1.8.1 CUDA_VERSION=11.1
     # or make TH_VERSION=1.9.0 CUDA_VERSION=11.1
 
+    cd espnet/tools/kaldi/tools
     extras/check_dependencies.sh
     make -j 8
 
