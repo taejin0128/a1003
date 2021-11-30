@@ -29,7 +29,7 @@
 
 ## Download scripts
 
-    git clone https://github.com/pkyoung/a1003.git ./train.1
+    git clone https://github.com/taejin0128/a1003.git ./train.1
     cd train.1
     cd data && tar xvzf ks.tgz && cd ..
     ln -s /opt/kaldi/egs/wsj/s5/steps .
