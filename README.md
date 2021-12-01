@@ -68,6 +68,9 @@
     ./steps/make_fbank.sh data/dev
     ./steps/make_fbank.sh data/train
 
+    # execute selected parts (stage 3-5, 9, 10) of asr.sh
+    # stage 1-2: preprocessing
+    # stage 6~8: for langauge model
     bash stage3-5.sh
     bash stage9.sh
     bash stage10.sh
